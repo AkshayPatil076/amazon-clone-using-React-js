@@ -1,0 +1,112 @@
+.navbar1{
+    background-color: #131921;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.navbar2{
+    background-color: #232f3e;
+    width: 100%;
+    height: 56px;
+}
+.Logo{
+    width: 4cm;
+    
+}
+.Navleft{
+    display: flex;
+    /* background-color: red; */
+    width: 25%;
+    padding: 0px 30px 0 ;
+    
+}
+.logo{
+    /* background-color: gray; */
+    padding: 6px 4px 0 ;
+    text-decoration: none;
+    border-style: solid ;
+    border-width: 2px;
+    border-color: #131921;
+
+}
+.logo:hover{
+    border-style: solid ;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+/* .Logo{
+    padding: 6px 50px 0 ;
+} */
+.location1{
+    padding: 6px 4px 0 ;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    border-style: solid ;
+    border-width: 2px;
+    border-color: #131921;
+}
+.location1:hover{
+    border-style: solid ;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.bi-geo-alt{
+    font-size: 20px;
+    padding: 15px 5px 0px;
+}
+.deliver {
+    color: rgb(195, 195, 195);
+    font-size: 13px;
+    font-family: Arial black;
+}
+.loup{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Arial black;
+}
+#cars {
+    width: 1.8cm;
+    height: 1.2cm;
+    text-align: center;
+    border-radius: 7px 0 0 7px;
+    background-color: rgb(212, 212, 212);
+    border-width: 0;
+    cursor: pointer;
+}
+.sb{
+    padding: 6px 0  0;
+    cursor: pointer;
+    position: relative;
+    right: 1.5cm;
+}
+.searchbar{
+    height: 25px;
+    border-width: 10px;
+    border-style: solid ;
+    width: 13cm;
+    position: relative;
+    top: 2px;
+    font-size: 0.5cm;
+    border-color: rgb(255, 255, 255);
+
+}
+.search{
+    height: 1.2cm;
+    width: 1.5cm;
+    border-radius: 0 9px 9px 0;
+    /* padding: 0 5px 0; */
+    position: relative;
+    top: 2px;
+    border-width: 0;
+    background-color: rgb(255, 189, 47);
+    cursor: pointer;
+    /* right: ; */
+    /* padding: 21px 0 0 0; */
+}
+.size{
+    font-size: 0.5cm;
+}
+
