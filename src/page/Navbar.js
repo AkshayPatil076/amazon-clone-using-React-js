@@ -84,7 +84,7 @@ export default function Navbar() {
                     </div>
                     <a href="" className='sinup'>
                          <div className='accountlist'>
-                            <div className='hello'>Hello Sing in</div> 
+                            <div className='hello'>Hello Singin</div> 
                             <b className='account'>Account & Lists</b>
                          </div>
                         
@@ -97,11 +97,30 @@ export default function Navbar() {
                          </div>
                         
                     </a>
+                    <a href='' className='order'>
+                         <div className='cart'>
+                         <i class="bi bi-cart2 "></i>
+                            <b className='account cart'>Cart</b>
+                         </div>
+                        
+                    </a>
                 </div>
         </nav>
         
         <nav className='navbar2'>
-
+                        <div className='navmenu'>
+                        <i class="bi bi-list clos"  onClick={
+                          function a(){
+                            document.getElementById('menulist').style.display='block';
+                          }
+                        }></i>
+                        <div id='menulist'>
+                          
+                          <div className='navblu'>
+                            
+                          </div>
+                        </div>
+                        </div>
         </nav>
     </>
   )
