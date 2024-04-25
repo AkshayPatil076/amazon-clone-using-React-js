@@ -1,2 +1,2 @@
-# amazon-clone-using-React-js
+# amazon-Navbar-clone-using-React-js
 This amazon clone was create by using react js 
