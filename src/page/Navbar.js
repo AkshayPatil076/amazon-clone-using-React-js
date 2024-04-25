@@ -66,12 +66,7 @@ export default function Navbar() {
                                  <option className='sel1' value="search-alias=videogames">Video Games</option>
                                  <option className='sel1' value="search-alias=watches">Watches</option>
                           </select>
-                                                 {/* <select class="" aria-label="Default select example">
-                          <option selected>Open this select </option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                        </select> */}
+                                        
                         <input type='text' className='searchbar' placeholder='Search Amazon.in'/>
                         <button className='search'><i className='bi bi-search size'></i></button>
                     </form>
@@ -108,19 +103,46 @@ export default function Navbar() {
         </nav>
         
         <nav className='navbar2'>
-                        <div className='navmenu'>
-                        <i class="bi bi-list clos"  onClick={
-                          function a(){
-                            document.getElementById('menulist').style.display='block';
-                          }
-                        }></i>
-                        <div id='menulist'>
-                          
-                          <div className='navblu'>
-                            
-                          </div>
-                        </div>
-                        </div>
+                        <a href='' className='navmenu'>
+                                <i class="bi bi-list clos"  ></i><div className='Allmen'>All</div>
+                        </a>
+                        <a href='' className='mini'>
+                              <div className='minitv'>Amazone miniTV</div>
+                        </a>
+                        <a href='' className=' sell'>
+                              <div className='minitv'>Sell</div>
+                        </a>
+                        <a href='' className=' best'>
+                              <div className='minitv'>Best Sellers</div>
+                        </a>
+                        <a href='' className=' mob'>
+                              <div className='minitv '>Mobiles</div>
+                        </a>
+                        <a href='' className=' dil'>
+                              <div className='minitv '>Today's Deals</div>
+                        </a>
+                        <a href='' className=' sell'>
+                              <div className='minitv '>Price</div>
+                        </a>
+                        <a href='' className=' mini'>
+                              <div className='minitv '>Customer Service</div>
+                        </a>
+                        <a href='' className=' best'>
+                              <div className='minitv '>Electronics</div>
+                        </a>
+                        <a href='' className=' dil'>
+                              <div className='minitv '>New Releases</div>
+                        </a>
+                        <a href='' className=' mini'>
+                              <div className='minitv '>Home & Kitchen</div>
+                        </a>
+                        <a href='' className=' mob'>
+                              <div className='minitv '>Fashion</div>
+                        </a>
+                        <a href='' className=' best'>
+                              <div className='minitv '>Amazon Pay
+</div>
+                        </a>
         </nav>
     </>
   )
